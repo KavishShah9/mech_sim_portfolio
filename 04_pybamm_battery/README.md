@@ -2,6 +2,8 @@
 
 PyBaMM study of a 5 Ah LG M50 cylindrical cell (Chen 2020 parameter set) with the electrochemistry coupled to a lumped thermal model.
 
+![Voltage and temperature at four C rates](results/c_rate_study.png)
+
 ## Model
 
 * Doyle Fuller Newman (DFN) and Single Particle Model with electrolyte (SPMe)
@@ -13,6 +15,8 @@ PyBaMM study of a 5 Ah LG M50 cylindrical cell (Chen 2020 parameter set) with th
 * C/10 discharge delivers 5.08 Ah against the 5.0 Ah nominal capacity
 * SPMe against DFN at 1C: 18 mV voltage RMSE, same delivered capacity to 0.01 Ah
 * Energy balance: heat generated equals heat stored plus heat lost to the surroundings within 0.03% at every C rate
+
+![SPMe against DFN at 1C](results/spme_vs_dfn.png)
 
 ## Results
 

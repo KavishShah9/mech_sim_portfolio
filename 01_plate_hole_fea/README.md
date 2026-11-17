@@ -2,6 +2,8 @@
 
 A 2D plane stress finite element solver written from scratch with NumPy and SciPy sparse matrices.
 
+![Stress field on the quarter model](results/stress_field.png)
+
 ## Model
 
 * 4 node quadrilateral elements with 2x2 Gauss integration
@@ -15,6 +17,11 @@ A 2D plane stress finite element solver written from scratch with NumPy and SciP
 
 * Mesh convergence of Kt from 64 to 4,096 elements. Kt stops changing after about 2,300 elements.
 * Kt against the Heywood fit from Peterson's Stress Concentration Factors for d/W from 0.1 to 0.5. The largest difference is 1.2% at d/W = 0.5.
+
+<p>
+  <img src="results/kt_vs_dW.png" width="49%" alt="Kt against hole size">
+  <img src="results/convergence.png" width="49%" alt="Mesh convergence">
+</p>
 
 ## Output
 

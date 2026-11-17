@@ -2,6 +2,8 @@
 
 Steady 2D conduction with convection on a straight rectangular fin, solved with a cell centred finite volume method.
 
+![Fin temperature field and profile against the analytical solution](results/fin_temperature.png)
+
 ## Model
 
 * Aluminum, k = 205 W/m K, 2 mm thick, 50 mm long, per metre of depth
@@ -17,6 +19,8 @@ Steady 2D conduction with convection on a straight rectangular fin, solved with 
 ## Design study
 
 Heat rate and efficiency against fin length from 5 to 150 mm. The 50 mm fin runs at 86% efficiency. Reaching 95% of the infinite fin heat rate takes about 135 mm.
+
+![Heat rate and efficiency against fin length](results/fin_length_study.png)
 
 ## Output
 

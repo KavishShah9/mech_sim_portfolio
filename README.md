@@ -4,6 +4,13 @@ Kavish Shah. BEng Mechanical Engineering, MEng Industrial Engineering.
 
 I built four engineering studies in Python with coding agents. Each script sets up the physics, runs the model, checks the answer against theory or a second model, and writes its plots and a `results.json` file.
 
+<p>
+  <img src="01_plate_hole_fea/results/stress_field.png" width="49%" alt="Plate with a hole, stress field">
+  <img src="02_fin_heat_transfer/results/fin_temperature.png" width="49%" alt="Cooling fin temperature">
+  <img src="03_cadquery_bracket/results/bracket_iso.svg" width="49%" alt="CadQuery bracket">
+  <img src="04_pybamm_battery/results/c_rate_study.png" width="49%" alt="Battery discharge at four C rates">
+</p>
+
 ## Projects
 
 1. **[Plate with a hole under tension](01_plate_hole_fea)**: a 2D plane stress finite element solver written from scratch with NumPy and SciPy. Kt matches the Peterson chart within 1.2% for hole sizes from 10% to 50% of plate width.

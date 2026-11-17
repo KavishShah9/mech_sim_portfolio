@@ -2,6 +2,11 @@
 
 A wall mounted L bracket built as a solid in CadQuery and sized with beam theory.
 
+<p>
+  <img src="results/bracket_iso.svg" width="49%" alt="Chosen bracket exported from CadQuery">
+  <img src="results/thickness_study.png" width="49%" alt="Stress and mass against thickness">
+</p>
+
 ## Model
 
 * L profile extruded 40 mm wide, 90 mm arm, 60 mm flange, 6 mm inside fillet
