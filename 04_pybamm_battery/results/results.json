@@ -1,0 +1,65 @@
+{
+  "capacity_check": {
+    "C_rate": 0.1,
+    "delivered_Ah": 5.08,
+    "nominal_Ah": 5.0,
+    "difference_pct": 1.61
+  },
+  "model_comparison_1C": {
+    "SPMe_capacity_Ah": 4.948,
+    "DFN_capacity_Ah": 4.947,
+    "voltage_RMSE_mV": 18.4,
+    "SPMe_peak_T_C": 38.48,
+    "DFN_peak_T_C": 38.79
+  },
+  "c_rate_sweep": [
+    {
+      "C_rate": 0.5,
+      "current_A": 2.5,
+      "time_min": 120.4,
+      "delivered_Ah": 5.018,
+      "energy_Wh": 18.09,
+      "temperature_rise_C": 4.62,
+      "heat_generated_J": 1513.0,
+      "heat_to_surroundings_J": -1316.0,
+      "heat_stored_J": 198.0,
+      "energy_balance_residual_pct": -0.02
+    },
+    {
+      "C_rate": 1.0,
+      "current_A": 5.0,
+      "time_min": 59.4,
+      "delivered_Ah": 4.947,
+      "energy_Wh": 17.42,
+      "temperature_rise_C": 13.79,
+      "heat_generated_J": 2471.0,
+      "heat_to_surroundings_J": -1881.0,
+      "heat_stored_J": 590.0,
+      "energy_balance_residual_pct": -0.01
+    },
+    {
+      "C_rate": 2.0,
+      "current_A": 10.0,
+      "time_min": 28.7,
+      "delivered_Ah": 4.777,
+      "energy_Wh": 16.05,
+      "temperature_rise_C": 44.41,
+      "heat_generated_J": 4348.0,
+      "heat_to_surroundings_J": -2448.0,
+      "heat_stored_J": 1900.0,
+      "energy_balance_residual_pct": -0.01
+    },
+    {
+      "C_rate": 3.0,
+      "current_A": 15.0,
+      "time_min": 9.6,
+      "delivered_Ah": 2.396,
+      "energy_Wh": 7.95,
+      "temperature_rise_C": 57.66,
+      "heat_generated_J": 3393.0,
+      "heat_to_surroundings_J": -927.0,
+      "heat_stored_J": 2466.0,
+      "energy_balance_residual_pct": -0.03
+    }
+  ]
+}

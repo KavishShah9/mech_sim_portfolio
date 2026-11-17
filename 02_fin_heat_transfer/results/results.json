@@ -1,0 +1,48 @@
+{
+  "base_case": {
+    "length_mm": 50.0,
+    "thickness_mm": 2.0,
+    "k_W_mK": 205.0,
+    "h_W_m2K": 40.0,
+    "T_base_C": 80.0,
+    "T_air_C": 25.0,
+    "Biot_half_thickness": 0.000195,
+    "q_2d_W_per_m": 192.821,
+    "q_1d_W_per_m": 192.832,
+    "q_error_pct": -0.006,
+    "tip_T_2d_C": 68.495,
+    "tip_T_1d_C": 68.494
+  },
+  "grid_convergence": [
+    {
+      "nx": 10,
+      "q_W_per_m": 192.676
+    },
+    {
+      "nx": 20,
+      "q_W_per_m": 192.7838
+    },
+    {
+      "nx": 50,
+      "q_W_per_m": 192.814
+    },
+    {
+      "nx": 100,
+      "q_W_per_m": 192.8188
+    },
+    {
+      "nx": 200,
+      "q_W_per_m": 192.8205
+    },
+    {
+      "nx": 400,
+      "q_W_per_m": 192.8209
+    }
+  ],
+  "length_study": {
+    "q_infinite_fin_W_per_m": 314.99,
+    "length_for_95pct_of_max_mm": 135.0,
+    "mL_for_base_case": 0.698,
+    "efficiency_at_50mm": 0.859
+  }
+}

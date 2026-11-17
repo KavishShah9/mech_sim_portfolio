@@ -1,0 +1,179 @@
+{
+  "inputs": {
+    "width_mm": 40.0,
+    "arm_mm": 90.0,
+    "flange_mm": 60.0,
+    "fillet_mm": 6.0,
+    "load_N": 500.0,
+    "material": "6061 T6",
+    "yield_MPa": 276.0,
+    "required_safety_factor": 2.0
+  },
+  "chosen": {
+    "t_mm": 6.5,
+    "volume_mm3": 36814.1,
+    "volume_closed_form_mm3": 36814.1,
+    "volume_error_pct": 0.0,
+    "mass_g": 99.4,
+    "root_stress_MPa": 119.8,
+    "tip_deflection_mm": 0.813,
+    "safety_factor": 2.3,
+    "passes": true
+  },
+  "bounding_box_mm": [
+    90.0,
+    40.0,
+    60.0
+  ],
+  "center_of_mass_mm": [
+    29.07,
+    0.0,
+    14.21
+  ],
+  "max_volume_error_pct": 0.0,
+  "sweep": [
+    {
+      "t_mm": 4.0,
+      "volume_mm3": 23173.7,
+      "volume_closed_form_mm3": 23173.7,
+      "volume_error_pct": -0.0,
+      "mass_g": 62.6,
+      "root_stress_MPa": 328.1,
+      "tip_deflection_mm": 3.889,
+      "safety_factor": 0.84,
+      "passes": false
+    },
+    {
+      "t_mm": 4.5,
+      "volume_mm3": 25941.7,
+      "volume_closed_form_mm3": 25941.7,
+      "volume_error_pct": -0.0,
+      "mass_g": 70.0,
+      "root_stress_MPa": 257.4,
+      "tip_deflection_mm": 2.673,
+      "safety_factor": 1.07,
+      "passes": false
+    },
+    {
+      "t_mm": 5.0,
+      "volume_mm3": 28689.8,
+      "volume_closed_form_mm3": 28689.8,
+      "volume_error_pct": -0.0,
+      "mass_g": 77.5,
+      "root_stress_MPa": 207.0,
+      "tip_deflection_mm": 1.907,
+      "safety_factor": 1.33,
+      "passes": false
+    },
+    {
+      "t_mm": 5.5,
+      "volume_mm3": 31417.9,
+      "volume_closed_form_mm3": 31417.9,
+      "volume_error_pct": -0.0,
+      "mass_g": 84.8,
+      "root_stress_MPa": 169.8,
+      "tip_deflection_mm": 1.402,
+      "safety_factor": 1.63,
+      "passes": false
+    },
+    {
+      "t_mm": 6.0,
+      "volume_mm3": 34126.0,
+      "volume_closed_form_mm3": 34126.0,
+      "volume_error_pct": 0.0,
+      "mass_g": 92.1,
+      "root_stress_MPa": 141.7,
+      "tip_deflection_mm": 1.056,
+      "safety_factor": 1.95,
+      "passes": false
+    },
+    {
+      "t_mm": 6.5,
+      "volume_mm3": 36814.1,
+      "volume_closed_form_mm3": 36814.1,
+      "volume_error_pct": 0.0,
+      "mass_g": 99.4,
+      "root_stress_MPa": 119.8,
+      "tip_deflection_mm": 0.813,
+      "safety_factor": 2.3,
+      "passes": true
+    },
+    {
+      "t_mm": 7.0,
+      "volume_mm3": 39482.1,
+      "volume_closed_form_mm3": 39482.1,
+      "volume_error_pct": -0.0,
+      "mass_g": 106.6,
+      "root_stress_MPa": 102.6,
+      "tip_deflection_mm": 0.636,
+      "safety_factor": 2.69,
+      "passes": true
+    },
+    {
+      "t_mm": 7.5,
+      "volume_mm3": 42130.2,
+      "volume_closed_form_mm3": 42130.2,
+      "volume_error_pct": 0.0,
+      "mass_g": 113.8,
+      "root_stress_MPa": 88.7,
+      "tip_deflection_mm": 0.506,
+      "safety_factor": 3.11,
+      "passes": true
+    },
+    {
+      "t_mm": 8.0,
+      "volume_mm3": 44758.3,
+      "volume_closed_form_mm3": 44758.3,
+      "volume_error_pct": 0.0,
+      "mass_g": 120.8,
+      "root_stress_MPa": 77.3,
+      "tip_deflection_mm": 0.407,
+      "safety_factor": 3.57,
+      "passes": true
+    },
+    {
+      "t_mm": 8.5,
+      "volume_mm3": 47366.4,
+      "volume_closed_form_mm3": 47366.4,
+      "volume_error_pct": -0.0,
+      "mass_g": 127.9,
+      "root_stress_MPa": 68.0,
+      "tip_deflection_mm": 0.332,
+      "safety_factor": 4.06,
+      "passes": true
+    },
+    {
+      "t_mm": 9.0,
+      "volume_mm3": 49954.5,
+      "volume_closed_form_mm3": 49954.5,
+      "volume_error_pct": -0.0,
+      "mass_g": 134.9,
+      "root_stress_MPa": 60.2,
+      "tip_deflection_mm": 0.273,
+      "safety_factor": 4.59,
+      "passes": true
+    },
+    {
+      "t_mm": 9.5,
+      "volume_mm3": 52522.5,
+      "volume_closed_form_mm3": 52522.5,
+      "volume_error_pct": 0.0,
+      "mass_g": 141.8,
+      "root_stress_MPa": 53.6,
+      "tip_deflection_mm": 0.227,
+      "safety_factor": 5.15,
+      "passes": true
+    },
+    {
+      "t_mm": 10.0,
+      "volume_mm3": 55070.6,
+      "volume_closed_form_mm3": 55070.6,
+      "volume_error_pct": 0.0,
+      "mass_g": 148.7,
+      "root_stress_MPa": 48.0,
+      "tip_deflection_mm": 0.19,
+      "safety_factor": 5.75,
+      "passes": true
+    }
+  ]
+}

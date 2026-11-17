@@ -1,0 +1,74 @@
+{
+  "convergence": [
+    {
+      "elements": 64,
+      "kt": 3.1117
+    },
+    {
+      "elements": 144,
+      "kt": 3.1382
+    },
+    {
+      "elements": 256,
+      "kt": 3.1491
+    },
+    {
+      "elements": 576,
+      "kt": 3.1545
+    },
+    {
+      "elements": 1024,
+      "kt": 3.1557
+    },
+    {
+      "elements": 2304,
+      "kt": 3.1561
+    },
+    {
+      "elements": 4096,
+      "kt": 3.1561
+    }
+  ],
+  "kt_reference_dW_0.2": 3.1488,
+  "sweep": [
+    {
+      "d_over_W": 0.1,
+      "kt_fea": 3.0395,
+      "kt_peterson": 3.0354,
+      "error_pct": 0.14
+    },
+    {
+      "d_over_W": 0.2,
+      "kt_fea": 3.1561,
+      "kt_peterson": 3.1488,
+      "error_pct": 0.23
+    },
+    {
+      "d_over_W": 0.3,
+      "kt_fea": 3.3806,
+      "kt_peterson": 3.3679,
+      "error_pct": 0.38
+    },
+    {
+      "d_over_W": 0.4,
+      "kt_fea": 3.7581,
+      "kt_peterson": 3.7325,
+      "error_pct": 0.69
+    },
+    {
+      "d_over_W": 0.5,
+      "kt_fea": 4.3666,
+      "kt_peterson": 4.314,
+      "error_pct": 1.22
+    }
+  ],
+  "peak_stress_MPa_dW_0.2": 315.6,
+  "model": {
+    "E_MPa": 200000.0,
+    "nu": 0.3,
+    "applied_stress_MPa": 100.0,
+    "plate_width_mm": 100.0,
+    "plate_length_mm": 200.0,
+    "element": "Q4 plane stress, 2x2 Gauss"
+  }
+}
